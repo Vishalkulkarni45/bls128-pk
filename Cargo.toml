@@ -1,0 +1,12 @@
+[package]
+name = "lamdaworks_bls_pk"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lambdaworks-crypto = "0.5.0"
+lambdaworks-math = "0.5.0"
+#lambdaworks-crypto = { workspace = true }
+#lambdaworks-math = { workspace = true, features = ["lambdaworks-serde-string"] }
